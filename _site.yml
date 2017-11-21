@@ -1,6 +1,5 @@
 name: "STATS 432 - ALM II"
 output_dir: "."
-keep_md: TRUE
 navbar:
   title: "STATS 432 - Applied Linear Models II Spring 2018"
   right:
@@ -14,6 +13,7 @@ navbar:
       href: schedule.html
 output:
   html_document:
+    keep_md: TRUE
     theme: cosmo
     highlight: textmate
     css: 
