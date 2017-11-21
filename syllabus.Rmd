@@ -20,15 +20,15 @@ Me: TBA
 Gunchang: TBA
 
 __Course webpage__:    
-WWW: https://stats-432sp2018.github.com/
+WWW: https://stats-432sp2018.github.com/  
 Github: https://github.com/STATS-432Sp2018  
-Slack: https://stat-s432-sp17.slack.com/
+Slack: https://stats-432-sp18.slack.com/
 
 __Lectures__:  
 TR 9:30 - 10:45, BH 149
 
 __Textbook__:  
-Required: [_Advanced data analysis from an elementary point of view_](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)  
+Required: [_Advanced Data Analysis from an Elementary Point of View_](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)  
 Optional: [_Introduction to Statistical Learning_](http://www-bcf.usc.edu/~gareth/ISL/)
 
 __Prerequisite__:  

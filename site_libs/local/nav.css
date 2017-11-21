@@ -2,21 +2,27 @@
   font-size: 14px;
   position: relative;
   margin: 10px 0 20px;
+  background-color: #003366;
+  
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+}
+
+.navbar-default {
+    background-color: #003366;
+    border-color: #003366;
 }
 
 .nav ul {
   list-style: none;
-  background-color: #003366;
   text-align: center;
+  background: #003366;
   padding: 0;
   margin: 0;
 }
 .nav li {
-  background: #003366;
   font-family: Garamond, Palatino, "Times New Roman", Times, serif;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
-  -moz-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
   border: 0;
 }
  
