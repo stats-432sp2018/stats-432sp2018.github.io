@@ -1,0 +1,37 @@
+---
+title: "Schedule"
+---
+
+```{r include = FALSE}
+library(dplyr)
+library(stringr)
+library(readr)
+library(tidyr)
+
+lec.root = "https://raw.githubusercontent.com/stats-432sp2018/lectures/master/"
+
+rawdat <- read_csv(file.path("../","support", "schedule.csv"))
+cdat <- rawdat %>%
+  mutate(ugly_date = ISOdate(2018, match(month, month.name), day),
+         date = sprintf("%s-%02d %s",
+                        tolower(months(ugly_date, abbreviate = TRUE)),
+                        day, tolower(weekdays(ugly_date,abbreviate = TRUE))),
+         topic = topic,
+         action = action)
+
+
+cdat$file_name = paste0(cdat$lec,'.pdf')
+cdat$full_path = paste0(lec.root, cdat$file_name)
+cdat$notes = rep('(pdf)',nrow(cdat))
+cdat$notes <- str_replace(cdat$notes,
+              "(pdf)", '<a href="LINK">\\1</a>')
+cdat <- cdat %>% mutate(notes = str_replace(notes, '\"LINK\"', full_path))
+rownames(cdat) <- NULL
+```
+
+Note: schedule is subject to change. See the [lectures repo](https://github.com/stats-432sp2018/lectures) for all materials.
+
+```{r results = 'asis', echo = FALSE}
+options(knitr.kable.NA=' ')
+knitr::kable(cdat %>% select(date, topic, notes, action))
+```
