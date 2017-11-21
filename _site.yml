@@ -1,10 +1,19 @@
-name: "STATS 432 -- Applied Linear Models II"
+name: "STATS 432 - ALM II"
 output_dir: "."
 keep_md: TRUE
+css:
+  - site_libs/local/main.css
+  - site_libs/local/nav.css
+self_contained: false
+lib_dir: site_libs
 navbar:
-  title: "STATS 432 -- Applied Linear Models II Spring 2018"
+  title: "STATS 432 - Applied Linear Models II Spring 2018"
   right:
     - text: "Home"
       href: index.html
     - text: "Syllabus"
       href: syllabus.html
+    - text: "FAQ"
+      href: faq.html
+    - text: "Schedule"
+      href: schedule.html

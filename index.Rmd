@@ -1,5 +1,5 @@
 ---
-title: "My website"
+title: "STATS 432 - ALM II"
 ---
 
-Hello, website!
+# STATS 432 - Applied Linear Models II Spring 2018
