@@ -17,5 +17,5 @@ output:
     theme: cosmo
     highlight: textmate
     css: 
-      - site_libs/local/main.css
       - site_libs/local/nav.css
+      - site_libs/local/main.css

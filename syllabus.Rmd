@@ -90,11 +90,11 @@ If you send me email instead, I may ignore it.
 
 #### Rules
 
-– All content-related (non-personal) questions should be asked in Slack. Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.
-– Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.
-– It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).
-– Emails will almost certainly be ignored.
-– I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.
+– All content-related (non-personal) questions should be asked in Slack. Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
+– Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.  
+– It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).  
+– Emails will almost certainly be ignored.  
+– I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
 - Ignoring these rules will result in decreased participation points.
 
 ### Grading
