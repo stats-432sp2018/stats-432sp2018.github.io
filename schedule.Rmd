@@ -31,7 +31,7 @@ cdat <- cdat %>% mutate(notes = str_replace(notes, '\"LINK\"', full_path))
 rownames(cdat) <- NULL
 ```
 
-Note: schedule is subject to change. See the [lectures repo](https://github.com/stats-432sp2018/lectures) for all materials.
+Note: Schedule is subject to change. See the [lectures repo](https://github.com/stats-432sp2018/lectures) for all materials. It is possible that more notes are in that repo but not linked here. _If you are looking for notes, check there before messaging me._
 
 ```{r results = 'asis', echo = FALSE}
 options(knitr.kable.NA=' ')

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>FAQ</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="site_libs/local/nav.css" type="text/css" />
+<link rel="stylesheet" href="site_libs/local/main.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STATS 432 - Applied Linear Models II Spring 2018</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="faq.html">FAQ</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">FAQ</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#do-i-need-a-computer">Do I need a computer?</a></li>
+<li><a href="#my-code-doesnt-run.-what-do-i-do">My code doesn’t run. What do I do?</a></li>
+<li><a href="#minimal-working-examples">Minimal working examples</a></li>
+<li><a href="#how-to-write-good-code">How to write good code</a></li>
+<li><a href="#git-and-github">Git and Github</a></li>
+</ul>
+</div>
+
+<div id="do-i-need-a-computer" class="section level3">
+<h3>Do I need a computer?</h3>
+<p>Yes. This class is heavily computer oriented. Ideally, you should bring your laptop with you to each class. We will regularly do coding exercises during lecture. If this is not an option for you, let me know as early as possible so we can work out a solution.</p>
+</div>
+<div id="my-code-doesnt-run.-what-do-i-do" class="section level3">
+<h3>My code doesn’t run. What do I do?</h3>
+<p>This is a constant issue with code, and it happens to everyone. My first recommendation is to <em>start early</em> to maximize the time to complete an assignment. The assignments don’t take too long, unless you have code issues which may add substantially to your time to completion. The following is a general workflow for debugging stuck code.</p>
+<ol start="0" style="list-style-type: decimal">
+<li><p>If the code is running, but not doing what you want, see <a href="#how-to-write-good-code">below</a>.</p></li>
+<li><p>Read the Error message. It will give you some important hints. Sometimes these are hard to parse, but that’s ok.</p></li>
+</ol>
+<pre class="r"><code>set.seed(12345)
+y = rnorm(10)
+x = matrix(rnorm(20),2)
+linmod = lm(y~x)</code></pre>
+<pre><code>## Error in model.frame.default(formula = y ~ x, drop.unused.levels = TRUE): variable lengths differ (found for &#39;x&#39;)</code></pre>
+<p>This one is a little difficult. The first stuff before the colon is telling me where the error happened, but I didn’t use a function called <code>model.frame.default</code>. Nonetheless, after the colon it says <code>variable lengths differ</code>. Well <code>y</code> is length 10 and <code>x</code> has 10 rows right? Oh wait, how many rows does <code>x</code> have?</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Read the documentation for the function in the error message. For the above, I should try <code>?matrix</code>.</p></li>
+<li><p>Google!! If the first few steps didn’t help, copy the error message into Google. This almost always helps. Best to remove any overly specific information first.</p></li>
+<li><p>Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section <a href="#minimal-working-examples">below</a> for how to do this.</p></li>
+<li><p>Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example.</p></li>
+</ol>
+</div>
+<div id="minimal-working-examples" class="section level3">
+<h3>Minimal working examples</h3>
+<p>An MWE is a small bit of code which will work on anyone’s machine and reproduce the error that you are getting. This is a key component of getting help debugging. When you do your homework, there’s lots of stuff going on that will differ from most other students. To allow them (or me, or the TA) to help you, you need to be able to get their machine to reproduce your error (and <em>only</em> your error) without much hassle.</p>
+<p>I find that, in the process of preparing an MWE, I can often answer my own question. So it is a useful exercise even if you aren’t ready to call in the experts yet. The process of stripping your problem down to its bare essence often reveals where the root issue lies. My above code is an MWE: I set a seed, so we both can use <em>exactly</em> the same data, and it’s only a few lines long without calling any custom code that you don’t have.</p>
+<p>For a good discussion of how to do this, see <a href="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example-aka-mcve-minimal-complete-and-ver/5963610#5963610">stackexchange</a>.</p>
+</div>
+<div id="how-to-write-good-code" class="section level3">
+<h3>How to write good code</h3>
+<p>This is covered in much greater detail in the lectures, so see there. Here is my basic advice.</p>
+<ol style="list-style-type: decimal">
+<li>Write script files (which you save) and source them. Don’t do everything in the console. <code>R</code> (and python and Matlab and SAS) is much better as a scripting language than as a calculator.</li>
+<li>Don’t write anything more than once. This has three corollaries:
+<ol style="list-style-type: lower-alpha">
+<li>If you are tempted to copy/paste, don’t.</li>
+<li>Don’t use <em>magic numbers</em>. Define all constants at the top of the script.</li>
+<li>Write functions.</li>
+</ol></li>
+<li>The third is <strong>very important</strong>. Functions are easy to test. You give different inputs and check whether the output is as expected. This helps catch mistakes.</li>
+<li>There are two kinds of errors: syntax and function.
+<ul>
+<li>The first R can find (missing close parenthesis, wrong arguments, etc.)<br />
+</li>
+<li>The second you can only catch by thorough testing (see the HW)</li>
+</ul></li>
+<li>Don’t use <strong>magic numbers</strong>.</li>
+<li>Use meaningful names. Don’t do this:</li>
+</ol>
+<pre class="r"><code>data(&quot;ChickWeight&quot;)
+out = lm(weight~Time+Chick+Diet, data=ChickWeight)</code></pre>
+<ol start="7" style="list-style-type: decimal">
+<li>Comment things that aren’t clear from the (meaningful) names.</li>
+<li>Comment long formulas that don’t immediately make sense:</li>
+</ol>
+<pre class="r"><code>garbage = with(ChickWeight, 
+               by(weight, Chick, 
+                  function(x) (x^2+23)/length(x))) ## WTF???</code></pre>
+</div>
+<div id="git-and-github" class="section level3">
+<h3>Git and Github</h3>
+<p>Most issues can be fixed by examining <a href="http://happygitwithr.com">Happy Git with R</a>, so please read carefully first (see week 1 reading assignment).</p>
+<p>Some other common issues:</p>
+<ol style="list-style-type: decimal">
+<li><p>Installing Git. On Macs, this is done already. Although, if your system is really old, it may be an old version. On Windows, the TA and I can attempt to help, but your best bet is likely to go to a campus STC and get their help. But again, see the reading first.</p></li>
+<li><p>rpostback-askpass error</p></li>
+</ol>
+<p>Sometimes when RStudio won’t push committed changes to GitHub, RStudio displays an <code>rpostback-askpass</code> error:</p>
+<pre><code>error: unable to read askpass response from &#39;rpostback-askpass&#39;
+fatal: could not read Username for &#39;https://github.com&#39;: Device not configured</code></pre>
+<div class="figure">
+<img src="figs/rpostback-askpass.png" alt="Error screen window: error: unable to read askpass response." />
+<p class="caption">Error screen window: ‘error: unable to read askpass response’.</p>
+</div>
+<p>To fix it, open the shell: Tools &gt; Shell.</p>
+<p><code>git push -u origin master</code></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Git not detected on system path</li>
+</ol>
+<p>After downloading and installing git, sometimes RStudio is unable to locate git and will show the following error:</p>
+<div class="figure">
+<img src="figs/git_not_detected.png" alt="Error screen window:Git was not detected on the system path" />
+<p class="caption">Error screen window:‘Git was not detected on the system path’</p>
+</div>
+<p>It is important to make sure you do in fact have git installed on your computer first. You can do this by opening up terminal (Mac OSX) or the cmd line (Windows) and typing:</p>
+<ul>
+<li><code>$ which git</code> for Mac/Linux,</li>
+<li><code>$ where git</code> for Windows</li>
+</ul>
+<p>These commands will tell you where the <code>git.exe</code> file is located. Typically it will look something like this: <code>/usr/local/git/bin/git</code> or <code>/usr/bin/git</code> or some variation of those.</p>
+<p>Once confirming the location of <code>git.exe</code> you need to tell RStudio where it is. Open up RStudio, got to Preferences and select the Git/SVN option:</p>
+<div class="figure">
+<img src="figs/RStudio_git_svn.png" />
+
+</div>
+<p>In the Git executable area, fill in the path to your git.exe. If RStudio does not let you manually enter your path, select Browse… and navigate to the <code>git.exe</code> file. If you are not able to navigate to the file it is likely a hidden file.</p>
+<p>On a Mac, to make hidden files visible, close RStudio and do the following:</p>
+<ul>
+<li>Open Terminal found in Finder &gt; Applications &gt; Utilities.</li>
+<li>In Terminal, paste the following: defaults write com.apple.finder AppleShowAllFiles YES.</li>
+<li>Press return.</li>
+<li>Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch.</li>
+</ul>
+<p>And then reopen RStudio, go to Preferences -&gt; Git/SVN -&gt; Browse… and you should be able to navigate to the <code>git.exe</code></p>
+<p>You will then need to create an RSA Key. You can do this by clicking on ‘Create RSA Key…’ at the bottom of the Git/SVN panel, then ‘View public key’. Copy the key you see, and add it to your GitHub account by using the instructions provided <a href="https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account">here</a>.</p>
+<p>Source: Fixes for 2 and 3 come from the <a href="http://ohi-science.org/manual/#toolbox-troubleshooting">OHI manual</a> but appear so frequently in this class that I am quoting here.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 
 
-Note: schedule is subject to change. See the [lectures repo](https://github.com/stats-432sp2018/lectures) for all materials.
+Note: Schedule is subject to change. See the [lectures repo](https://github.com/stats-432sp2018/lectures) for all materials. It is possible that more notes are in that repo but not linked here. _If you are looking for notes, check there before messaging me._
 
 
 date         topic                        notes   action                   
