@@ -23,8 +23,10 @@ cdat <- rawdat %>%
 cdat$file_name = paste0(cdat$lec,'.pdf')
 cdat$full_path = paste0(lec.root, cdat$file_name)
 cdat$notes = rep('(pdf)',nrow(cdat))
-cdat$notes <- str_replace(cdat$notes,
-              "(pdf)", '<a href="LINK">\\1</a>')
+cdat$notes = str_replace(cdat$notes, "(pdf)", '<a href="LINK">\\1</a>')
+exist_pdfs = list.files("../lectures/", 'pdf')
+link_them = cdat$link_it & (exist_pdfs %in% cdat$file_name)
+cdat$notes[!link_them] = ' '
 cdat <- cdat %>% mutate(notes = str_replace(notes, '\"LINK\"', full_path))
 rownames(cdat) <- NULL
 ```
