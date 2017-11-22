@@ -1,5 +1,4 @@
 ---
-title: "STATS 432 - ALM II"
+title: "STATS 432 - Applied Linear Models II Spring 2018"
 ---
 
-# STATS 432 - Applied Linear Models II Spring 2018

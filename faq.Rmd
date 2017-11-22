@@ -10,6 +10,10 @@ output:
 
 Yes. This class is heavily computer oriented. Ideally, you should bring your laptop with you to each class. We will regularly do coding exercises during lecture. If this is not an option for you, let me know as early as possible so we can work out a solution.
 
+### How do I succeed in this class?
+
+### How can I get better at R?
+
 ### My code doesn't run. What do I do?
 
 This is a constant issue with code, and it happens to everyone. My first recommendation is to _start early_ to maximize the time to complete an assignment. The assignments don't take too long, unless you have code issues which may add substantially to your time to completion. The following is a general workflow for debugging stuck code.
@@ -29,9 +33,11 @@ This one is a little difficult. The first stuff before the colon is telling me w
 
 3. Google!! If the first few steps didn't help, copy the error message into Google. This almost always helps. Best to remove any overly specific information first.
 
-4. Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section [below](#minimal-working-examples) for how to do this.
+4. Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section on [MWEs](#minimal-working-examples) for how to do this.
 
-5. Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example.
+5. Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example (MWE). 
+
+**If you come to my office, bring your computer! Or Slack me your MWE. Or both. But not neither.** If the error cannot be reproduced in my presence, it is very unlikely that I can fix it.
 
 ### Minimal working examples
 
@@ -53,7 +59,7 @@ This is covered in much greater detail in the lectures, so see there. Here is my
 3. The third is __very important__. Functions are easy to test. You give different inputs and check whether the output is as expected. This helps catch mistakes.
 4. There are two kinds of errors: syntax and function.  
     * The first R can find (missing close parenthesis, wrong arguments, etc.)  
-    * The second you can only catch by thorough testing (see the HW)
+    * The second you can only catch by thorough testing 
 5. Don't use __magic numbers__. 
 6. Use meaningful names. Don't do this:
 ```{r general-advice}
