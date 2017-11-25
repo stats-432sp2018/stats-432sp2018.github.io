@@ -4,6 +4,26 @@
 
 Yes. This class is heavily computer oriented. Ideally, you should bring your laptop with you to each class. We will regularly do coding exercises during lecture. If this is not an option for you, let me know as early as possible so we can work out a solution.
 
+### How do I succeed in this class?
+
+* Complete readings before the material is covered in class, and then review again afterwards.
+
+* Participate actively in class. If you don't understand something, I can guarantee no one else does either. I have a Ph.D., and I've been doing this for more than 10 years. It's hard for me to remember what it's like to be you and what you don't know. Say something! I want you to learn this stuff, and I love to explain more carefully.
+
+* Come to office hours. Again, I like explaining things.
+
+* Do the assignments – start early and make sure you attempt and understand all questions. I can't emphasize this enough. The biggest mistake you can make is to convince yourself that you know something because a classmate did it on the HW. Make sure you understand every step and how to get there.
+
+* Do not procrastinate - don’t let a unit go by with unanswered questions as it will just make the following unit’s material even more difficult to follow.
+
+### How can I get better at R?
+
+I get this question a lot. The answer is almost never "go read the book _How to learn R fast_" or "watch the video on _FreeRadvice.com_". To learn programming, the only thing to do is to program. Do your assignments. Redo your assignments. Run through the code in the textbook. Ask yourself why we used one function instead of another. Ask questions. Play little coding games. If you find yourself wondering how some bit of code works, run through it step by step. Print out the results and see what it's doing. If you take on these kinds of tasks regularly, you will improve rapidly. Coding is an _active_ activity just like learning Spanish. You have to practice constantly. For the same reasons that it is difficult/impossible to learn Spanish just from reading a textbook, it is difficult/impossible to learn R just from reading/watching.
+
+When I took German in 7th grade, I remember my teacher saying "to learn a language, you have to constantly tell lies". What he meant was, you don't just say "yesterday I went to the gym". You say "yesterday I went to the market", "yesterday I went to the movies", "yesterday she went to the gym", etc. The point is to internalize conjugation, vocabulary, and the inner workings of the language. The same is true when coding. Do things different ways. Try automating regular tasks. 
+
+If you are still looking for more reading, there are some links on my [website](http://mypage.iu.edu/~dajmcdon/usefullinks.html) as well as many other places accessible by [Google](http://www.google.com/).
+
 ### My code doesn't run. What do I do?
 
 This is a constant issue with code, and it happens to everyone. My first recommendation is to _start early_ to maximize the time to complete an assignment. The assignments don't take too long, unless you have code issues which may add substantially to your time to completion. The following is a general workflow for debugging stuck code.
@@ -28,9 +48,11 @@ This one is a little difficult. The first stuff before the colon is telling me w
 
 3. Google!! If the first few steps didn't help, copy the error message into Google. This almost always helps. Best to remove any overly specific information first.
 
-4. Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section [below](#minimal-working-examples) for how to do this.
+4. Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section on [MWEs](#minimal-working-examples) for how to do this.
 
-5. Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example.
+5. Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example (MWE). 
+
+**If you come to my office, bring your computer! Or Slack me your MWE. Or both. But not neither.** If the error cannot be reproduced in my presence, it is very unlikely that I can fix it.
 
 ### Minimal working examples
 
@@ -52,7 +74,7 @@ This is covered in much greater detail in the lectures, so see there. Here is my
 3. The third is __very important__. Functions are easy to test. You give different inputs and check whether the output is as expected. This helps catch mistakes.
 4. There are two kinds of errors: syntax and function.  
     * The first R can find (missing close parenthesis, wrong arguments, etc.)  
-    * The second you can only catch by thorough testing (see the HW)
+    * The second you can only catch by thorough testing 
 5. Don't use __magic numbers__. 
 6. Use meaningful names. Don't do this:
 
@@ -86,7 +108,7 @@ error: unable to read askpass response from 'rpostback-askpass'
 fatal: could not read Username for 'https://github.com': Device not configured
 ```
 
-![Error screen window: 'error: unable to read askpass response'.](figs/rpostback-askpass.png)
+![](figs/rpostback-askpass.png)
 
 To fix it, open the shell: Tools > Shell.
 
@@ -97,7 +119,7 @@ To fix it, open the shell: Tools > Shell.
 
 After downloading and installing git, sometimes RStudio is unable to locate git and will show the following error:
 
-![Error screen window:'Git was not detected on the system path'](figs/git_not_detected.png)
+![](figs/git_not_detected.png)
 
 It is important to make sure you do in fact have git installed on your computer first. You can do this by opening up terminal (Mac OSX) or the cmd line (Windows) and typing:
 

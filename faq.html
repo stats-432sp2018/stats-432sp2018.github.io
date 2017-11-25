@@ -211,6 +211,8 @@ $(document).ready(function () {
 <div id="TOC">
 <ul>
 <li><a href="#do-i-need-a-computer">Do I need a computer?</a></li>
+<li><a href="#how-do-i-succeed-in-this-class">How do I succeed in this class?</a></li>
+<li><a href="#how-can-i-get-better-at-r">How can I get better at R?</a></li>
 <li><a href="#my-code-doesnt-run.-what-do-i-do">My code doesn’t run. What do I do?</a></li>
 <li><a href="#minimal-working-examples">Minimal working examples</a></li>
 <li><a href="#how-to-write-good-code">How to write good code</a></li>
@@ -221,6 +223,22 @@ $(document).ready(function () {
 <div id="do-i-need-a-computer" class="section level3">
 <h3>Do I need a computer?</h3>
 <p>Yes. This class is heavily computer oriented. Ideally, you should bring your laptop with you to each class. We will regularly do coding exercises during lecture. If this is not an option for you, let me know as early as possible so we can work out a solution.</p>
+</div>
+<div id="how-do-i-succeed-in-this-class" class="section level3">
+<h3>How do I succeed in this class?</h3>
+<ul>
+<li><p>Complete readings before the material is covered in class, and then review again afterwards.</p></li>
+<li><p>Participate actively in class. If you don’t understand something, I can guarantee no one else does either. I have a Ph.D., and I’ve been doing this for more than 10 years. It’s hard for me to remember what it’s like to be you and what you don’t know. Say something! I want you to learn this stuff, and I love to explain more carefully.</p></li>
+<li><p>Come to office hours. Again, I like explaining things.</p></li>
+<li><p>Do the assignments – start early and make sure you attempt and understand all questions. I can’t emphasize this enough. The biggest mistake you can make is to convince yourself that you know something because a classmate did it on the HW. Make sure you understand every step and how to get there.</p></li>
+<li><p>Do not procrastinate - don’t let a unit go by with unanswered questions as it will just make the following unit’s material even more difficult to follow.</p></li>
+</ul>
+</div>
+<div id="how-can-i-get-better-at-r" class="section level3">
+<h3>How can I get better at R?</h3>
+<p>I get this question a lot. The answer is almost never “go read the book <em>How to learn R fast</em>” or “watch the video on <em>FreeRadvice.com</em>”. To learn programming, the only thing to do is to program. Do your assignments. Redo your assignments. Run through the code in the textbook. Ask yourself why we used one function instead of another. Ask questions. Play little coding games. If you find yourself wondering how some bit of code works, run through it step by step. Print out the results and see what it’s doing. If you take on these kinds of tasks regularly, you will improve rapidly. Coding is an <em>active</em> activity just like learning Spanish. You have to practice constantly. For the same reasons that it is difficult/impossible to learn Spanish just from reading a textbook, it is difficult/impossible to learn R just from reading/watching.</p>
+<p>When I took German in 7th grade, I remember my teacher saying “to learn a language, you have to constantly tell lies”. What he meant was, you don’t just say “yesterday I went to the gym”. You say “yesterday I went to the market”, “yesterday I went to the movies”, “yesterday she went to the gym”, etc. The point is to internalize conjugation, vocabulary, and the inner workings of the language. The same is true when coding. Do things different ways. Try automating regular tasks.</p>
+<p>If you are still looking for more reading, there are some links on my <a href="http://mypage.iu.edu/~dajmcdon/usefullinks.html">website</a> as well as many other places accessible by <a href="http://www.google.com/">Google</a>.</p>
 </div>
 <div id="my-code-doesnt-run.-what-do-i-do" class="section level3">
 <h3>My code doesn’t run. What do I do?</h3>
@@ -238,9 +256,10 @@ linmod = lm(y~x)</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li><p>Read the documentation for the function in the error message. For the above, I should try <code>?matrix</code>.</p></li>
 <li><p>Google!! If the first few steps didn’t help, copy the error message into Google. This almost always helps. Best to remove any overly specific information first.</p></li>
-<li><p>Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section <a href="#minimal-working-examples">below</a> for how to do this.</p></li>
-<li><p>Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example.</p></li>
+<li><p>Ask your classmates on Slack. In order to ask most effectively, you should probably provide them some idea of how the error happened. See the section on <a href="#minimal-working-examples">MWEs</a> for how to do this.</p></li>
+<li><p>Come see me or the TA. Note that it is highly likely that I will ask if you did the above steps first. And I will want to see your minimal working example (MWE).</p></li>
 </ol>
+<p><strong>If you come to my office, bring your computer! Or Slack me your MWE. Or both. But not neither.</strong> If the error cannot be reproduced in my presence, it is very unlikely that I can fix it.</p>
 </div>
 <div id="minimal-working-examples" class="section level3">
 <h3>Minimal working examples</h3>
@@ -264,7 +283,7 @@ linmod = lm(y~x)</code></pre>
 <ul>
 <li>The first R can find (missing close parenthesis, wrong arguments, etc.)<br />
 </li>
-<li>The second you can only catch by thorough testing (see the HW)</li>
+<li>The second you can only catch by thorough testing</li>
 </ul></li>
 <li>Don’t use <strong>magic numbers</strong>.</li>
 <li>Use meaningful names. Don’t do this:</li>
@@ -291,8 +310,8 @@ out = lm(weight~Time+Chick+Diet, data=ChickWeight)</code></pre>
 <pre><code>error: unable to read askpass response from &#39;rpostback-askpass&#39;
 fatal: could not read Username for &#39;https://github.com&#39;: Device not configured</code></pre>
 <div class="figure">
-<img src="figs/rpostback-askpass.png" alt="Error screen window: error: unable to read askpass response." />
-<p class="caption">Error screen window: ‘error: unable to read askpass response’.</p>
+<img src="figs/rpostback-askpass.png" />
+
 </div>
 <p>To fix it, open the shell: Tools &gt; Shell.</p>
 <p><code>git push -u origin master</code></p>
@@ -301,8 +320,8 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </ol>
 <p>After downloading and installing git, sometimes RStudio is unable to locate git and will show the following error:</p>
 <div class="figure">
-<img src="figs/git_not_detected.png" alt="Error screen window:Git was not detected on the system path" />
-<p class="caption">Error screen window:‘Git was not detected on the system path’</p>
+<img src="figs/git_not_detected.png" />
+
 </div>
 <p>It is important to make sure you do in fact have git installed on your computer first. You can do this by opening up terminal (Mac OSX) or the cmd line (Windows) and typing:</p>
 <ul>
