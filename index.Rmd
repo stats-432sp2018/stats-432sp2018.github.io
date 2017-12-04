@@ -69,6 +69,10 @@ The course combines analysis with methodology and computational aspects. It trea
 
 I expect that the material should be appropriate and interesting to students coming from either statistics or informatics/computer science. I will make an effort to provide necessary background so that lectures are accessible to both populations.
 
+We will put special emphasis on learning to use certain tools common to companies which actually _do_
+data science. This includes [Slack](https://stat-s432sp2018.slack.com/), [GitHub](https://github.com/STATS-432Sp2018), [Rstudio](https://www.rstudio.com), and [Rmarkdown](http://rmarkdown.rstudio.com/). As such, we will
+require the use of these technologies.
+
 
 ```{r make-plots,fig.align='center',fig.width=6,echo=FALSE,message=FALSE}
 wp
