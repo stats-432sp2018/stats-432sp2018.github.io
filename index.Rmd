@@ -2,3 +2,82 @@
 title: "STATS 432 - Applied Linear Models II Spring 2018"
 ---
 
+
+```{r train-test-error, eval=TRUE, echo=FALSE,message=FALSE}
+library(ggplot2)
+wigglydata = function(ntrain, ntest, p_max = 20){
+  tot = ntrain+ntest
+  x = sort(runif(tot,-1,1))
+  y = sin(x*20/pi) + rnorm(tot,.01)
+  flip = sample.int(tot, ntrain)
+  flop = setdiff(1:tot, flip)
+  X = outer(x, 1:p_max, "^")
+  X = cbind(1,X)
+  preds = matrix(0,nrow=tot,ncol=p_max)
+  for(i in 1:p_max){
+    tX = X[flip,1:(i+1)]
+    bhat = solve(t(tX) %*% tX) %*% t(tX) %*% y[flip]
+    preds[,i] = X[,1:(i+1)] %*% bhat
+  }
+  flag = rep("train",tot)
+  flag[flop] = "test"
+  df = data.frame(y=y, x=x, set=flag)
+  df = cbind(df,preds)
+  names(df)[4:(p_max+3)] = paste0('yhat',1:p_max)
+  return(df)
+}
+
+wigglyplot = function(df,p){
+  blue = "#0b61a4"
+  orange = "#ff9200"
+  g1 <- ggplot(df) + 
+    geom_point(aes(x=x,y=y,col=set)) +
+    scale_color_manual("set",values=c("test"=blue,"train"=orange))+
+    stat_function(fun=function(x) sin(x/pi*20), color=blue,size=2)+
+    ggtitle(paste0(p,' parameters'))+
+    geom_line(data=subset(df, set=="train"), aes_string(x="x",y=paste0("yhat",p)),
+              color=orange,size=1.5)+
+    theme_minimal(base_family = "serif")
+}
+train_testplot = function(df,p){
+  blue = "#0b61a4"
+  orange = "#ff9200"
+  error = df[,-c(1:3)]
+  out = c(by((error-df$y)^2, df$set, function(x) apply(x, 2, mean),simplify = TRUE))
+  params = rep(1:p+1,times=2)
+  error = c(out$train,out$test)
+  flip = rep(c("train","test"),each=p)
+  errdf = data.frame(parameters = params, error=error, set=flip)
+  g1 <- ggplot(errdf,aes(x=parameters,y=log(error),col=set)) + 
+    geom_point() + geom_smooth(size=1.5) + xlab("number of parameters") +
+    ggtitle(paste0('best model has ',which.min(error[flip=="test"]),' parameters'))+
+    scale_color_manual("set",values=c("test"=blue,"train"=orange)) +
+    geom_vline(xintercept = params[which.min(error[flip=="test"])],col=blue)+
+    theme_minimal(base_family = "serif")
+}
+set.seed(12345)
+df = wigglydata(200,200)
+wp = wigglyplot(df,4)
+tt = train_testplot(df,20)
+```
+
+
+
+This is a course in advanced data analysis. Based on the theory of linear models covered in S431, this course will focus on applying many types of data analysis methods to interesting datasets. The focus will be dealing with and describing data rather than on particular methods per se.
+
+The course combines analysis with methodology and computational aspects. It treats both the "art" of understanding unfamiliar data and the "science" of analyzing that data in terms of statistical properties. The focus will be on practical aspects of methodology and intuition to help students develop tools for selecting appropriate methods and approaches to problems in their own lives.
+
+I expect that the material should be appropriate and interesting to students coming from either statistics or informatics/computer science. I will make an effort to provide necessary background so that lectures are accessible to both populations.
+
+
+```{r make-plots,fig.align='center',fig.width=6,echo=FALSE,message=FALSE}
+wp
+tt
+```
+
+## Where to find things.
+
+
+* The most up-to-date materials are on [Github](https://github.com/stats-432sp2018).
+* Lecture handouts will be posted on the [Schedule](schedule.html) page once available. 
+* Course communication on [Slack](http://stats-432sp2018.slack.com).
