@@ -14,12 +14,12 @@ Me: TBA
 Gunchang: TBA
 
 __Course webpage__:    
-WWW: https://stats-432sp2018.github.com/  
+WWW: https://stats-432sp2018.github.io/  
 Github: https://github.com/STATS-432Sp2018  
-Slack: https://stats-432-sp18.slack.com/
+Slack: https://stats-432sp2018.slack.com/
 
 __Lectures__:  
-TR 9:30 - 10:45, BH 149
+TR 9:30--10:45, BH 149
 
 __Textbook__:  
 Required: [_Advanced Data Analysis from an Elementary Point of View_](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)  
@@ -70,15 +70,15 @@ is still being updated.
 
 #### Philosophy
 
-This class will use [Slack](https://stat-s432-sp18.slack.com/) for class communication. Slack is a Team messaging
+This class will use [Slack](https://stats-432sp2018.slack.com/) for class communication. Slack is a team messaging
 app which is frequently adopted by companies and research groups. We will use it for announcements, questions, 
 homework communication, etc. You are required to use it. 
 
 Since homework and the project are team-based, you need a way to communicate with your team. Slack is that way. You can
 create a special channel for your team. You can direct message individuals. You can message me or the TA. You can post
-pictures of cats. The sky is the limit. By using slack, we will avoid sending lots of email back and forth.
+pictures of cats. The sky is the limit. By using Slack, we will avoid sending lots of email back and forth.
 
-Slack has apps for iPhone or Android. Or you can use the web (as I do).
+Slack has apps for iPhone, Android, MacOS, and Windows. Or you can use the web.
 
 If you send me email instead, I may ignore it.
 
@@ -88,7 +88,7 @@ If you send me email instead, I may ignore it.
 – Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.  
 – It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).  
 – Emails will almost certainly be ignored.  
-– I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
+– I generally reply to messages during normal business hours (M--F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
 - Ignoring these rules will result in decreased participation points.
 
 ### Grading
@@ -190,7 +190,7 @@ only considered cheating
 
 #### Cheating
 
-Last time I taught this course, I caught two students cheating on the first midterm. I did not enforce any penalty because the action did not help. The students received failing grades on the midterm and one failed the course while the other barely passed. I carefully structure exams to make it so that I can catch these issues. I _will_ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
+Last time I taught this course, I caught two students cheating on the first midterm. I did not enforce any penalty because the action did not help. The students received failing grades on the midterm, and one failed the course while the other barely passed. I carefully structure exams to make it so that I can catch these issues. I _will_ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
 
 #### Title IX
 
