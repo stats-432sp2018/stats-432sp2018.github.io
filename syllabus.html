@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>Syllabus</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -204,12 +204,22 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Syllabus</h1>
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#course-info">Course info</a></li>
+<li><a href="#course-objectives">Course objectives</a></li>
+<li><a href="#lecture-content">Lecture content</a></li>
+<li><a href="#textbook">Textbook</a></li>
+<li><a href="#course-communication">Course communication</a></li>
+<li><a href="#grading">Grading</a></li>
+<li><a href="#important-considerations">Important considerations</a></li>
+</ul>
+</div>
 
-<div id="syllabus" class="section level1">
-<h1>Syllabus</h1>
 <div id="course-info" class="section level3">
 <h3>Course info</h3>
 <p><strong>Instructor</strong>:<br />
@@ -222,11 +232,11 @@ Email: <a href="mailto:dajmcdon@indiana.edu">dajmcdon@indiana.edu</a></p>
 Me: TBA<br />
 Gunchang: TBA</p>
 <p><strong>Course webpage</strong>:<br />
-WWW: <a href="https://stats-432sp2018.github.io/" class="uri">https://stats-432sp2018.github.io/</a><br />
-Github: <a href="https://github.com/STATS-432Sp2018" class="uri">https://github.com/STATS-432Sp2018</a><br />
+WWW: <a href="https://stats-432sp2018.github.com/" class="uri">https://stats-432sp2018.github.com/</a><br />
+Github: <a href="https://github.com/stats-432sp2018" class="uri">https://github.com/stats-432sp2018</a><br />
 Slack: <a href="https://stats-432sp2018.slack.com/" class="uri">https://stats-432sp2018.slack.com/</a></p>
 <p><strong>Lectures</strong>:<br />
-TR 9:30–10:45, BH 149</p>
+TR 9:30 - 10:45, BH 149</p>
 <p><strong>Textbook</strong>:<br />
 Required: <a href="https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/"><em>Advanced Data Analysis from an Elementary Point of View</em></a><br />
 Optional: <a href="http://www-bcf.usc.edu/~gareth/ISL/"><em>Introduction to Statistical Learning</em></a></p>
@@ -238,7 +248,7 @@ STAT-S 431 or equivalent or permission of the instructor.</p>
 <p>This is a course in advanced data analysis. Based on the theory of linear models covered in S431, this course will focus on applying many types of data analysis methods to interesting datasets. The focus will be dealing with and describing data rather than on particular methods per se.</p>
 <p>The course combines analysis with methodology and computational aspects. It treats both the “art” of understanding unfamiliar data and the “science” of analyzing that data in terms of statistical properties. The focus will be on practical aspects of methodology and intuition to help students develop tools for selecting appropriate methods and approaches to problems in their own lives.</p>
 <p>I expect that the material should be appropriate and interesting to students coming from either statistics or informatics/computer science. I will make an effort to provide necessary background so that lectures are accessible to both populations.</p>
-<p>We will put special emphasis on learning to use certain tools common to companies which actually <em>do</em> data science. This includes <a href="https://stat-s432-sp18.slack.com/">Slack</a>, <a href="https://github.com/STATS-432Sp2018">GitHub</a>, <a href="https://www.rstudio.com">Rstudio</a>, and <a href="http://rmarkdown.rstudio.com/">Rmarkdown</a>. As such, we will require the use of these technologies.</p>
+<p>We will put special emphasis on learning to use certain tools common to companies which actually <em>do</em> data science. This includes <a href="https://stat-s432sp2018.slack.com/">Slack</a>, <a href="https://github.com/STATS-432Sp2018">GitHub</a>, <a href="https://www.rstudio.com">Rstudio</a>, and <a href="http://rmarkdown.rstudio.com/">Rmarkdown</a>. As such, we will require the use of these technologies.</p>
 </div>
 <div id="lecture-content" class="section level3">
 <h3>Lecture content</h3>
@@ -252,27 +262,34 @@ STAT-S 431 or equivalent or permission of the instructor.</p>
 <h3>Course communication</h3>
 <div id="philosophy" class="section level4">
 <h4>Philosophy</h4>
-<p>This class will use <a href="https://stats-432sp2018.slack.com/">Slack</a> for class communication. Slack is a team messaging app which is frequently adopted by companies and research groups. We will use it for announcements, questions, homework communication, etc. You are required to use it.</p>
-<p>Since homework and the project are team-based, you need a way to communicate with your team. Slack is that way. You can create a special channel for your team. You can direct message individuals. You can message me or the TA. You can post pictures of cats. The sky is the limit. By using Slack, we will avoid sending lots of email back and forth.</p>
-<p>Slack has apps for iPhone, Android, MacOS, and Windows. Or you can use the web.</p>
+<p>This class will use <a href="https://stat-s432sp2018.slack.com/">Slack</a> for class communication. Slack is a Team messaging app which is frequently adopted by companies and research groups. We will use it for announcements, questions, homework communication, etc. You are required to use it.</p>
+<p>Since homework and the project are team-based, you need a way to communicate with your team. Slack is that way. You can create a special channel for your team. You can direct message individuals. You can message me or the TA. You can post pictures of cats. The sky is the limit. By using slack, we will avoid sending lots of email back and forth.</p>
+<p>Slack has apps for iPhone or Android. Or you can use the web (as I do).</p>
 <p>If you send me email instead, I may ignore it.</p>
 </div>
 <div id="rules" class="section level4">
 <h4>Rules</h4>
-<p>– All content-related (non-personal) questions should be asked in Slack. Use the <code>general</code> channel for homework, lecture, or other questions. For personal issues, direct message me (<span class="citation">@dajmcdon</span>) or the TA.<br />
-– Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.<br />
-– It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).<br />
-– Emails will almost certainly be ignored.<br />
-– I generally reply to messages during normal business hours (M–F). My typical response time is 24 hours. Please don’t message me on Slack, wait an hour without response, email me, email me again, etc.<br />
-- Ignoring these rules will result in decreased participation points.</p>
+<ul>
+<li>All content-related (non-personal) questions should be asked in <a href="https://stat-s432sp2018.slack.com/">Slack</a>. Use the <code>general</code> channel for homework, lecture, or other questions. For personal issues, direct message me (<span class="citation">@dajmcdon</span>) or the TA.<br />
+</li>
+<li>Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.<br />
+</li>
+<li>It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).<br />
+</li>
+<li>Emails will almost certainly be ignored.<br />
+</li>
+<li>I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don’t message me on Slack, wait an hour without response, email me, email me again, etc.<br />
+</li>
+<li>Ignoring these rules will result in decreased participation points.</li>
+</ul>
 </div>
 </div>
 <div id="grading" class="section level3">
 <h3>Grading</h3>
 <p>10 In-class exercises (5 points each)<br />
-6 Homeworks (30 points each)<br />
-1 Midterm project report (100 points)<br />
-1 Final project report (200 points)<br />
+10 Reading responses (5 points each) 6 Homeworks (30 points each)<br />
+1 Midterm project report (50 points)<br />
+1 Final project report (100 points)<br />
 1 Midterm exam (100 points)<br />
 1 Final exam (150 points)<br />
 Participation (50 points)</p>
@@ -281,6 +298,10 @@ Participation (50 points)</p>
 <h4>In-class exercises</h4>
 <p>We will regularly have short programming or theoretical exercises during class time. These will always occur on Thursdays. At the end of class, you will push your results to GitHub for grading. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.</p>
 </div>
+<div id="reading-responses" class="section level4">
+<h4>Reading responses</h4>
+<p>Each chapter will have a short coding exercise which you should submit before we cover the chapter. I will post the exercise on Github, you clone it and upload your changes. These will generally be due before class begins on <strong>Tuesday</strong> each week. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.</p>
+</div>
 <div id="homeworks" class="section level4">
 <h4>Homeworks</h4>
 <p>Homework assignments will be completed in groups which I assign. These groups will rotate for each assignment. Each team will have their own private repository. All assignments will be submitted on Github. Homework grades will be awarded based on complete and accurate analyses according to the rubric provided with each assignment. Grades will be adjusted up or down based on participation according to the Github commit messages. You are expected to consult only with me, the TA, or your assigned group, with the exception of conversations which occur during class meetings or office hours in the presence of me or the TA. This means that you and your friend (who is in a different group) may not do the homework together.</p>
@@ -288,13 +309,13 @@ Participation (50 points)</p>
 <div id="project" class="section level4">
 <h4>Project</h4>
 <p>You will be required to complete a team project (2-4 people). You may choose this group. The goal is to analyze a dataset in depth using everything that you have learned.</p>
-<p>A Midterm Report is due on <strong>Thursday, March 2</strong> at 11:59pm. This report must include your group members, the questions you are interested in, and evidence that you have successfully loaded the data onto your computer in processable form.</p>
+<p>A Midterm Report is due on <strong>Thursday, March 1</strong> at 11:59pm. This report must include your group members, the questions you are interested in, and evidence that you have successfully loaded the data onto your computer in processable form.</p>
 <p>The entire class will give brief presentations during the last day of class. You will also be graded on your completed project. You will also submit a final report due on <strong>Thursday, April 20</strong> at 11:59pm.</p>
 </div>
 <div id="exams" class="section level4">
 <h4>Exams</h4>
-<p>There will be two take home exams. Both will be completed entirely individually. The midterm will be made available on <strong>Friday, March 3</strong> for submission by <strong>Friday, March 10</strong>.</p>
-<p>The final exam will be available <strong>Friday, April 21</strong> for submission by <strong>Friday, April 28</strong>. Note that this exam occurs during “dead week”. There will be no course meeting during the scheduled final exam time.</p>
+<p>There will be two take home exams. Both will be completed entirely individually. The midterm will be made available on <strong>Friday, March 2</strong> for submission by <strong>Friday, March 9</strong>.</p>
+<p>The final exam will be available <strong>Friday, April 20</strong> for submission by <strong>Friday, April 27</strong>. Note that this exam occurs during “dead week”. There will be no course meeting during the scheduled final exam time.</p>
 </div>
 </div>
 <div id="important-considerations" class="section level3">
@@ -313,12 +334,11 @@ Participation (50 points)</p>
 </div>
 <div id="cheating" class="section level4">
 <h4>Cheating</h4>
-<p>Last time I taught this course, I caught two students cheating on the first midterm. I did not enforce any penalty because the action did not help. The students received failing grades on the midterm and one failed the course while the other barely passed. I carefully structure exams to make it so that I can catch these issues. I <em>will</em> catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.</p>
+<p>In previous years, I have caught students cheating on the midterm exam. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don’t understand the material, so the result is usually two failing grades even before the penalty and resulting report to the Dean’s office. I carefully structure exams to make it so that I can catch these issues. I <em>will</em> catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.</p>
 </div>
 <div id="title-ix" class="section level4">
 <h4>Title IX</h4>
 <p>As your instructor, one of my responsibilities is to help create a safe learning environ- ment on our campus. Title IX and our own Sexual Misconduct policy prohibit sexual misconduct. If you have experienced sexual misconduct, or know someone who has, the University can help. If you are seeking help and would like to speak to someone confidentially, you can make an appointment with The Sexual Assault Crisis Service (SACS) at 812-855-8900; Counseling and Psychological Services (CAPS) at 812-855-5711; Confidential Victim Advocates (CVA) at 812-856-2469; or the IU Health Center at 812-855-4011. More information about available resources can be found at <a href="http://stopsexualviolence.iu.edu/help/index.html" class="uri">http://stopsexualviolence.iu.edu/help/index.html</a>. It is also important that you know that federal regulations and University policy require me to promptly convey any information about potential sexual misconduct known to me to our campus’s Deputy Title IX Coordinator or IU’s Title IX Coordinator. In that event, they will work with a small number of others on campus to ensure that appropriate measures are taken and resources are made available to the student who may have been harmed. Protecting a student’s privacy is of utmost concern, and all involved will only share information with those that need to know to ensure the University can respond and assist. I encourage you to visit <a href="http://stopsexualviolence.iu.edu" class="uri">http://stopsexualviolence.iu.edu</a> to learn more.</p>
-</div>
 </div>
 </div>
 

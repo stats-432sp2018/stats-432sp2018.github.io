@@ -14,12 +14,12 @@ Me: TBA
 Gunchang: TBA
 
 __Course webpage__:    
-WWW: https://stats-432sp2018.github.io/  
-Github: https://github.com/STATS-432Sp2018  
+WWW: https://stats-432sp2018.github.com/  
+Github: https://github.com/stats-432sp2018  
 Slack: https://stats-432sp2018.slack.com/
 
 __Lectures__:  
-TR 9:30--10:45, BH 149
+TR 9:30 - 10:45, BH 149
 
 __Textbook__:  
 Required: [_Advanced Data Analysis from an Elementary Point of View_](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)  
@@ -50,7 +50,7 @@ science. I will make an effort to provide necessary background so that
 lectures are accessible to both populations.
 
 We will put special emphasis on learning to use certain tools common to companies which actually _do_
-data science. This includes [Slack](https://stat-s432-sp18.slack.com/), [GitHub](https://github.com/STATS-432Sp2018), [Rstudio](https://www.rstudio.com), and [Rmarkdown](http://rmarkdown.rstudio.com/). As such, we will
+data science. This includes [Slack](https://stat-s432sp2018.slack.com/), [GitHub](https://github.com/STATS-432Sp2018), [Rstudio](https://www.rstudio.com), and [Rmarkdown](http://rmarkdown.rstudio.com/). As such, we will
 require the use of these technologies.
 
 ### Lecture content
@@ -70,33 +70,34 @@ is still being updated.
 
 #### Philosophy
 
-This class will use [Slack](https://stats-432sp2018.slack.com/) for class communication. Slack is a team messaging
+This class will use [Slack](https://stat-s432sp2018.slack.com/) for class communication. Slack is a Team messaging
 app which is frequently adopted by companies and research groups. We will use it for announcements, questions, 
 homework communication, etc. You are required to use it. 
 
 Since homework and the project are team-based, you need a way to communicate with your team. Slack is that way. You can
 create a special channel for your team. You can direct message individuals. You can message me or the TA. You can post
-pictures of cats. The sky is the limit. By using Slack, we will avoid sending lots of email back and forth.
+pictures of cats. The sky is the limit. By using slack, we will avoid sending lots of email back and forth.
 
-Slack has apps for iPhone, Android, MacOS, and Windows. Or you can use the web.
+Slack has apps for iPhone or Android. Or you can use the web (as I do).
 
 If you send me email instead, I may ignore it.
 
 #### Rules
 
-– All content-related (non-personal) questions should be asked in Slack. Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
-– Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.  
-– It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).  
-– Emails will almost certainly be ignored.  
-– I generally reply to messages during normal business hours (M--F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
+- All content-related (non-personal) questions should be asked in [Slack](https://stat-s432sp2018.slack.com/). Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
+- Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.  
+- It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).  
+- Emails will almost certainly be ignored.  
+- I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
 - Ignoring these rules will result in decreased participation points.
 
 ### Grading
 
 10 In-class exercises (5 points each)  
+10 Reading responses (5 points each)
 6 Homeworks (30 points each)  
-1 Midterm project report (100 points)  
-1 Final project report (200 points)  
+1 Midterm project report (50 points)  
+1 Final project report (100 points)  
 1 Midterm exam (100 points)  
 1 Final exam (150 points)  
 Participation (50 points)
@@ -110,6 +111,10 @@ class. Points are awarded for excellent performance.
 #### In-class exercises
 
 We will regularly have short programming or theoretical exercises during class time. These will always occur on Thursdays. At the end of class, you will push your results to GitHub for grading. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.
+
+#### Reading responses
+
+Each chapter will have a short coding exercise which you should submit before we cover the chapter. I will post the exercise on Github, you clone it and upload your changes. These will generally be due before class begins on __Tuesday__ each week. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.
 
 #### Homeworks
 
@@ -128,7 +133,7 @@ choose this group. The goal
 is to analyze a dataset in depth using everything that you have learned.
 
 
-A Midterm Report is due on __Thursday, March 2__ at 11:59pm. This report must include your group members, the questions you are interested in, and
+A Midterm Report is due on __Thursday, March 1__ at 11:59pm. This report must include your group members, the questions you are interested in, and
 evidence that you have successfully loaded the data onto your computer
 in processable form. 
 
@@ -139,9 +144,9 @@ project. You will also submit a final report due on __Thursday, April 20__ at 11
 #### Exams
 
 There will be two take home exams. Both will be completed entirely individually. 
-The midterm will be made available on __Friday, March 3__ for submission by __Friday, March 10__.
+The midterm will be made available on __Friday, March 2__ for submission by __Friday, March 9__.
 
-The final exam will be available __Friday, April 21__ for submission by __Friday, April 28__. Note that this exam occurs during "dead week". There will be no course meeting during the scheduled final exam time.
+The final exam will be available __Friday, April 20__ for submission by __Friday, April 27__. Note that this exam occurs during "dead week". There will be no course meeting during the scheduled final exam time.
 
 ### Important considerations
 
@@ -190,7 +195,7 @@ only considered cheating
 
 #### Cheating
 
-Last time I taught this course, I caught two students cheating on the first midterm. I did not enforce any penalty because the action did not help. The students received failing grades on the midterm, and one failed the course while the other barely passed. I carefully structure exams to make it so that I can catch these issues. I _will_ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
+In previous years, I have caught students cheating on the midterm exam. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don't understand the material, so the result is usually two failing grades even before the penalty and resulting report to the Dean's office. I carefully structure exams to make it so that I can catch these issues. I _will_ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
 
 #### Title IX
 

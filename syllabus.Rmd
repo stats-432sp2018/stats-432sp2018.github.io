@@ -90,7 +90,7 @@ If you send me email instead, I may ignore it.
 
 #### Rules
 
-- All content-related (non-personal) questions should be asked in (Slack)[https://stat-s432sp2018.slack.com/]. Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
+- All content-related (non-personal) questions should be asked in [Slack](https://stat-s432sp2018.slack.com/). Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
 - Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.  
 - It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).  
 - Emails will almost certainly be ignored.  
@@ -201,7 +201,7 @@ only considered cheating
 
 #### Cheating
 
-Last time I taught this course, I caught two students cheating on the first midterm. I did not enforce any penalty because the action did not help. The students received failing grades on the midterm and one failed the course while the other barely passed. I carefully structure exams to make it so that I can catch these issues. I _will_ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
+In previous years, I have caught students cheating on the midterm exam. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don't understand the material, so the result is usually two failing grades even before the penalty and resulting report to the Dean's office. I carefully structure exams to make it so that I can catch these issues. I _will_ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
 
 #### Title IX
 
