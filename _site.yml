@@ -11,6 +11,8 @@ navbar:
       href: faq.html
     - text: "Schedule"
       href: schedule.html
+    - text: "Project"
+      href: project.html
     - text: "Github"
       href: https://github.com/stats-432sp2018
 output:
