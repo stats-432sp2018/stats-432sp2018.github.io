@@ -197,3 +197,7 @@ the required set of analytical questions.
 
 
 __Grade__: 75 out of 75 possible
+
+## Presentations
+
+These will be delivered during the final week of classes. Each group should prepare a 15 minute (maximum) presentation emphasizing the data, question, methods, and conclusions of their project. You should prepare slides (this can be done easily in Rmarkdown) which shows appropriate graphical displays and aids the delivery.
