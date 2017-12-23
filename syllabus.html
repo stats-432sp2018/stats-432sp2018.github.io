@@ -193,6 +193,9 @@ $(document).ready(function () {
   <a href="schedule.html">Schedule</a>
 </li>
 <li>
+  <a href="project.html">Project</a>
+</li>
+<li>
   <a href="https://github.com/stats-432sp2018">Github</a>
 </li>
       </ul>
@@ -248,7 +251,7 @@ STAT-S 431 or equivalent or permission of the instructor.</p>
 <p>This is a course in advanced data analysis. Based on the theory of linear models covered in S431, this course will focus on applying many types of data analysis methods to interesting datasets. The focus will be dealing with and describing data rather than on particular methods per se.</p>
 <p>The course combines analysis with methodology and computational aspects. It treats both the “art” of understanding unfamiliar data and the “science” of analyzing that data in terms of statistical properties. The focus will be on practical aspects of methodology and intuition to help students develop tools for selecting appropriate methods and approaches to problems in their own lives.</p>
 <p>I expect that the material should be appropriate and interesting to students coming from either statistics or informatics/computer science. I will make an effort to provide necessary background so that lectures are accessible to both populations.</p>
-<p>We will put special emphasis on learning to use certain tools common to companies which actually <em>do</em> data science. This includes <a href="https://stat-s432sp2018.slack.com/">Slack</a>, <a href="https://github.com/STATS-432Sp2018">GitHub</a>, <a href="https://www.rstudio.com">Rstudio</a>, and <a href="http://rmarkdown.rstudio.com/">Rmarkdown</a>. As such, we will require the use of these technologies.</p>
+<p>We will put special emphasis on learning to use certain tools common to companies which actually <em>do</em> data science. This includes <a href="https://stats-432sp2018.slack.com/">Slack</a>, <a href="https://github.com/STATS-432Sp2018">GitHub</a>, <a href="https://www.rstudio.com">Rstudio</a>, and <a href="http://rmarkdown.rstudio.com/">Rmarkdown</a>. As such, we will require the use of these technologies.</p>
 </div>
 <div id="lecture-content" class="section level3">
 <h3>Lecture content</h3>
@@ -262,17 +265,17 @@ STAT-S 431 or equivalent or permission of the instructor.</p>
 <h3>Course communication</h3>
 <div id="philosophy" class="section level4">
 <h4>Philosophy</h4>
-<p>This class will use <a href="https://stat-s432sp2018.slack.com/">Slack</a> for class communication. Slack is a Team messaging app which is frequently adopted by companies and research groups. We will use it for announcements, questions, homework communication, etc. You are required to use it.</p>
-<p>Since homework and the project are team-based, you need a way to communicate with your team. Slack is that way. You can create a special channel for your team. You can direct message individuals. You can message me or the TA. You can post pictures of cats. The sky is the limit. By using slack, we will avoid sending lots of email back and forth.</p>
-<p>Slack has apps for iPhone or Android. Or you can use the web (as I do).</p>
+<p>This class will use <a href="https://stats-432sp2018.slack.com/">Slack</a> for class communication. Slack is a Team messaging app which is frequently adopted by companies and research groups. We will use it for announcements, questions, homework communication, etc. You are required to use it.</p>
+<p>Since homework and the project are team-based, you need a way to communicate with your team. Slack is that way. You can create a special channel for your team. You can direct message individuals. You can message me or the TA. You can post pictures of cats. The sky is the limit. By using Slack, we will avoid sending lots of email back and forth.</p>
+<p>Slack has apps for iPhone or Android, Mac or Windows. Or you can use the web.</p>
 <p>If you send me email instead, I may ignore it.</p>
 </div>
 <div id="rules" class="section level4">
 <h4>Rules</h4>
 <ul>
-<li>All content-related (non-personal) questions should be asked in <a href="https://stat-s432sp2018.slack.com/">Slack</a>. Use the <code>general</code> channel for homework, lecture, or other questions. For personal issues, direct message me (<span class="citation">@dajmcdon</span>) or the TA.<br />
+<li>All content-related (non-personal) questions should be asked in <a href="https://stats-432sp2018.slack.com/">Slack</a>. Use the <code>general</code> channel for homework, lecture, or other questions. For personal issues, direct message me (<span class="citation">@dajmcdon</span>) or the TA.<br />
 </li>
-<li>Before posting a new question please make sure to check if your question has already been answered, and answer others’ questions. Just search.<br />
+<li>Before posting a new question please make sure to check if your question has already been answered. Just search.<br />
 </li>
 <li>It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).<br />
 </li>
@@ -287,16 +290,13 @@ STAT-S 431 or equivalent or permission of the instructor.</p>
 <div id="grading" class="section level3">
 <h3>Grading</h3>
 <p>10 In-class exercises (5 points each)<br />
-10 Reading responses (5 points each) 6 Homeworks (30 points each)<br />
-1 Midterm project report (50 points)<br />
-1 Final project report (100 points)<br />
-1 Midterm exam (100 points)<br />
-1 Final exam (150 points)<br />
-Participation (50 points)</p>
+10 Reading responses (5 points each)<br />
+6 Homeworks (25 points each)<br />
+1 Course project (PC 1/PC 2/PC 3/Presentation 15/35/75/25) 2 Take-home exams (150 points each) Participation (50 points)</p>
 <p>In all cases, a fixed number of points may be <strong>earned</strong> for each exercise. Points are not deducted for poor performance in this class. Points are awarded for excellent performance.</p>
 <div id="in-class-exercises" class="section level4">
 <h4>In-class exercises</h4>
-<p>We will regularly have short programming or theoretical exercises during class time. These will always occur on Thursdays. At the end of class, you will push your results to GitHub for grading. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.</p>
+<p>We will regularly have short programming or theoretical exercises during class time. At the end of class, you will push your results to GitHub for grading. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.</p>
 </div>
 <div id="reading-responses" class="section level4">
 <h4>Reading responses</h4>
@@ -308,14 +308,13 @@ Participation (50 points)</p>
 </div>
 <div id="project" class="section level4">
 <h4>Project</h4>
-<p>You will be required to complete a team project (2-4 people). You may choose this group. The goal is to analyze a dataset in depth using everything that you have learned.</p>
-<p>A Midterm Report is due on <strong>Thursday, March 1</strong> at 11:59pm. This report must include your group members, the questions you are interested in, and evidence that you have successfully loaded the data onto your computer in processable form.</p>
-<p>The entire class will give brief presentations during the last day of class. You will also be graded on your completed project. You will also submit a final report due on <strong>Thursday, April 20</strong> at 11:59pm.</p>
+<p>You will be required to complete a team project (2-4 people). You may choose this group. The goal is to analyze a dataset in depth using anything that you have learned. The project will have three checkpoints: PC 1 will be due <strong>Thursday, January 25</strong>, PC 2 is due <strong>Thursday, March 8</strong>, PC 3 is due on <strong>Monday, April 30</strong>. All are to be uploaded to your repo by 11:59pm on those dates. See the (/project)<a href="#project">project</a> page for detailed requirements.</p>
+<p>The entire class will give brief presentations during the last week of classes.</p>
 </div>
 <div id="exams" class="section level4">
 <h4>Exams</h4>
-<p>There will be two take home exams. Both will be completed entirely individually. The midterm will be made available on <strong>Friday, March 2</strong> for submission by <strong>Friday, March 9</strong>.</p>
-<p>The final exam will be available <strong>Friday, April 20</strong> for submission by <strong>Friday, April 27</strong>. Note that this exam occurs during “dead week”. There will be no course meeting during the scheduled final exam time.</p>
+<p>There will be two take home exams. Both will be completed entirely individually. The midterm will be made available on <strong>Friday, Febuary 16</strong> for submission by <strong>Friday, February 23</strong>. The second exam will be available <strong>Friday, April 13</strong> for submission by <strong>Friday, April 20</strong>. In both cases, the exam file will be downloaded from your personal repo at 11:59pm on the due date. Late submissions will not be accepted.</p>
+<p>If either of these dates pose some type of problem, you must notify me no later than Friday, January 12. After this date, no alternatives will be considered without medical documentation.</p>
 </div>
 </div>
 <div id="important-considerations" class="section level3">
@@ -334,7 +333,7 @@ Participation (50 points)</p>
 </div>
 <div id="cheating" class="section level4">
 <h4>Cheating</h4>
-<p>In previous years, I have caught students cheating on the midterm exam. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don’t understand the material, so the result is usually two failing grades even before the penalty and resulting report to the Dean’s office. I carefully structure exams to make it so that I can catch these issues. I <em>will</em> catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.</p>
+<p>In previous years, I have caught students cheating on the exams. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don’t understand the material, so the result is usually a failing grade even before I impose any penalty and report the incident to the Dean’s office. I carefully structure exams to make it so that I can catch these issues. I <strong>will</strong> catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.</p>
 </div>
 <div id="title-ix" class="section level4">
 <h4>Title IX</h4>
