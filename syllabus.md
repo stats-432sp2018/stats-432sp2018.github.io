@@ -23,7 +23,7 @@ TR 9:30 - 10:45, BH 149
 
 __Textbook__:  
 Required: [_Advanced Data Analysis from an Elementary Point of View_](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)  
-Optional: [_Introduction to Statistical Learning_](http://www-bcf.usc.edu/~gareth/ISL/)
+Required: [_Introduction to Statistical Learning_](http://www-bcf.usc.edu/~gareth/ISL/)
 
 __Prerequisite__:  
 STAT-S 431 or equivalent or permission of the instructor.
