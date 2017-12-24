@@ -11,7 +11,7 @@ Email: dajmcdon@indiana.edu
 
 __Office hours__:  
 Me: TBA  
-Gunchang: TBA
+Michael: TBA
 
 __Course webpage__:    
 WWW: https://stats-432sp2018.github.com/  
@@ -86,7 +86,7 @@ If you send me email instead, I may ignore it.
 
 - All content-related (non-personal) questions should be asked in [Slack](https://stats-432sp2018.slack.com/). Use the `general` channel for homework, lecture, or other questions. For personal issues, direct message me (@dajmcdon) or the TA.  
 - Before posting a new question please make sure to check if your question has already been answered. Just search.  
-- It may be more efficient to answer your question “in-person” so make good use of office hours (4 hours per week).  
+- It may be more efficient to answer your question “in-person” so make good use of office hours (2.5 hours per week).  
 - Emails will almost certainly be ignored.  
 - I generally reply to messages during normal business hours (M-F). My typical response time is 24 hours. Please don't message me on Slack, wait an hour without response, email me, email me again, etc.  
 - Ignoring these rules will result in decreased participation points.
@@ -96,8 +96,8 @@ If you send me email instead, I may ignore it.
 10 In-class exercises (5 points each)  
 10 Reading responses (5 points each)  
 6 Homeworks (25 points each)  
-1 Course project (PC 1/PC 2/PC 3/Presentation 15/35/75/25)
-2 Take-home exams (150 points each)
+1 Course project (PC 1/PC 2/PC 3/Presentation 15/35/75/25)  
+2 Take-home exams (150 points each)  
 Participation (50 points)
 
 
@@ -108,7 +108,7 @@ class. Points are awarded for excellent performance.
 
 #### In-class exercises
 
-We will regularly have short programming or theoretical exercises during class time. At the end of class, you will push your results to GitHub for grading. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.
+We will regularly have short programming or theoretical exercises during class time. At the end of class, you will push your results to Github for grading. Complete submissions will receive full credit. Partial submissions will receive 2 points. There will be at least 10 of these during the semester. Any submissions you make in excess of 10 will be extra credit.
 
 #### Reading responses
 
@@ -128,7 +128,7 @@ during class meetings or office hours in the presence of me or the TA. This mean
 
 You will be required to complete a team project (2-4 people). You may
 choose this group. The goal
-is to analyze a dataset in depth using anything that you have learned. The project will have three checkpoints: PC 1 will be due __Thursday, January 25__, PC 2 is due __Thursday, March 8__, PC 3 is due on __Monday, April 30__. All are to be uploaded to your repo by 11:59pm on those dates. See the (/project)[project] page for detailed requirements.
+is to analyze a dataset in depth using anything that you have learned. The project will have three checkpoints: PC 1 will be due __Thursday, January 25__, PC 2 is due __Thursday, March 8__, PC 3 is due on __Monday, April 30__. All are to be uploaded to your repo by 11:59pm on those dates. See the [project](project.html) page for detailed requirements.
 
 The entire class will give brief presentations during the last week of classes. 
 
@@ -187,8 +187,10 @@ only considered cheating
 
 #### Cheating
 
-In previous years, I have caught students cheating on the exams. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don't understand the material, so the result is usually a failing grade even before I impose any penalty and report the incident to the Dean's office. I carefully structure exams to make it so that I can catch these issues. I __will__ catch you, and it does not help. Do your own work and use the TA and me as resources. If you are struggling, we are here to help.
+In previous years, I have caught students cheating on the exams. I did not enforce any penalty because the action did not help. Cheating, in my experience, occurs because students don't understand the material, so the result is usually a failing grade even before I impose any penalty and report the incident to the Dean's office. I carefully structure exams to make it so that I can catch these issues. I __will__ catch you, and it does not help. Do your own work, and use the TA and me as resources. If you are struggling, we are here to help.
+
+_If I suspect cheating, your case will be forwarded to the Dean's office. No questions asked._
 
 #### Title IX
 
-As your instructor, one of my responsibilities is to help create a safe learning environ- ment on our campus. Title IX and our own Sexual Misconduct policy prohibit sexual misconduct. If you have experienced sexual misconduct, or know someone who has, the University can help. If you are seeking help and would like to speak to someone confidentially, you can make an appointment with The Sexual Assault Crisis Service (SACS) at 812-855-8900; Counseling and Psychological Services (CAPS) at 812-855-5711; Confidential Victim Advocates (CVA) at 812-856-2469; or the IU Health Center at 812-855-4011. More information about available resources can be found at http://stopsexualviolence.iu.edu/help/index.html. It is also important that you know that federal regulations and University policy require me to promptly convey any information about potential sexual misconduct known to me to our campus’s Deputy Title IX Coordinator or IU’s Title IX Coordinator. In that event, they will work with a small number of others on campus to ensure that appropriate measures are taken and resources are made available to the student who may have been harmed. Protecting a student’s privacy is of utmost concern, and all involved will only share information with those that need to know to ensure the University can respond and assist. I encourage you to visit http://stopsexualviolence.iu.edu to learn more.
+As your instructor, one of my responsibilities is to help create a safe learning environment on our campus. Title IX and our own Sexual Misconduct policy prohibit sexual misconduct. If you have experienced sexual misconduct, or know someone who has, the University can help. If you are seeking help and would like to speak to someone confidentially, you can make an appointment with The Sexual Assault Crisis Service (SACS) at 812-855-8900; Counseling and Psychological Services (CAPS) at 812-855-5711; Confidential Victim Advocates (CVA) at 812-856-2469; or the IU Health Center at 812-855-4011. More information about available resources can be found at [here](http://stopsexualviolence.iu.edu/help/index.html). It is also important that you know that federal regulations and University policy require me to promptly convey any information about potential sexual misconduct known to me to our campus’s Deputy Title IX Coordinator or IU’s Title IX Coordinator. In that event, they will work with a small number of others on campus to ensure that appropriate measures are taken and resources are made available to the student who may have been harmed. Protecting a student’s privacy is of utmost concern, and all involved will only share information with those that need to know to ensure the University can respond and assist. I encourage you to visit http://stopsexualviolence.iu.edu to learn more.
