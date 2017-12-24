@@ -10,7 +10,7 @@ library(tidyr)
 
 lec.root = "https://raw.githubusercontent.com/stats-432sp2018/lectures/master/"
 
-rawdat <- read_csv(file.path("../","support", "schedule.csv"))
+rawdat <- read.csv(file.path("..","support", "schedule.csv"))
 cdat <- rawdat %>%
   mutate(ugly_date = ISOdate(2018, match(month, month.name), day),
          date = sprintf("%s-%02d %s",
@@ -20,14 +20,15 @@ cdat <- rawdat %>%
          action = action)
 
 
-cdat$file_name = paste0(cdat$lec,'.pdf')
+cdat$file_name = paste0(cdat$notes,'.pdf')
+cdat$file_name[cdat$file_name=='.pdf'] = ' '
 cdat$full_path = paste0(lec.root, cdat$file_name)
-cdat$notes = rep('(pdf)',nrow(cdat))
-cdat$notes = str_replace(cdat$notes, "(pdf)", '<a href="LINK">\\1</a>')
+cdat$notes1 = rep('(pdf)',nrow(cdat))
+cdat$notes1 = str_replace(cdat$notes1, "(pdf)", '<a href="LINK">\\1</a>')
 exist_pdfs = list.files("../lectures/", 'pdf')
-link_them = cdat$link_it & (exist_pdfs %in% cdat$file_name)
-cdat$notes[!link_them] = ' '
-cdat <- cdat %>% mutate(notes = str_replace(notes, '\"LINK\"', full_path))
+link_them = cdat$link_it & (cdat$file_name %in% exist_pdfs)
+cdat$notes1[!link_them] = ' '
+cdat <- cdat %>% mutate(notes = str_replace(notes1, '\"LINK\"', full_path))
 rownames(cdat) <- NULL
 ```
 
