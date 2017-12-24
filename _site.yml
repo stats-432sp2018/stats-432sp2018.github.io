@@ -3,8 +3,6 @@ output_dir: "."
 navbar:
   title: "STATS 432 - Applied Linear Models II Spring 2018"
   right:
-    - text: "Home"
-      href: index.html
     - text: "Syllabus"
       href: syllabus.html
     - text: "FAQ"
