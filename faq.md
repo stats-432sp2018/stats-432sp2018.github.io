@@ -1,4 +1,10 @@
-# FAQ
+---
+title: "FAQ"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3 
+---
 
 ### Do I need a computer?
 

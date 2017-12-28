@@ -1,4 +1,6 @@
-# STATS 432 - Applied Linear Models II Spring 2018
+---
+title: "STATS 432 - Applied Linear Models II Spring 2018"
+---
 
 
 
