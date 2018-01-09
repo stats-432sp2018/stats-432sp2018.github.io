@@ -20,7 +20,7 @@ Me: TBA
 Michael: TBA
 
 __Course webpage__:    
-WWW: https://stats-432sp2018.github.com/  
+WWW: https://stats-432sp2018.github.io/  
 Github: https://github.com/stats-432sp2018  
 Slack: https://stats-432sp2018.slack.com/
 
