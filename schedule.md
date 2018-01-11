@@ -20,7 +20,7 @@ date         topic                       notes                                  
 -----------  --------------------------  ----------------------------------------------------------------------------------------------  -------------------------------  ---------------------
 jan-09 tue   intro, syllabus, github     (<a href=https://raw.githubusercontent.com/stats-432sp2018/lectures/master/lec01.pdf>pdf</a>)   HGR                                                   
 jan-11 thu   github and Rmarkdown        (<a href=https://raw.githubusercontent.com/stats-432sp2018/lectures/master/lec02.pdf>pdf</a>)   (R4DS 27-30)                                          
-jan-16 tue   coding and functions                                                                                                        AEPV App N. (R4DS 19)                                 
+jan-16 tue   coding and functions        (<a href=https://raw.githubusercontent.com/stats-432sp2018/lectures/master/lec03.pdf>pdf</a>)   AEPV App N. (R4DS 19)                                 
 jan-18 thu                                                                                                                                                                HW 1 due             
 jan-23 tue   linear regression                                                                                                           AEPV 1 (ISL 3)                                        
 jan-25 thu                                                                                                                                                                PC 1                 
