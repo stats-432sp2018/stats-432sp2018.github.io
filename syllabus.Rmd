@@ -16,11 +16,11 @@ Slack: @dajmcdon
 Email: dajmcdon@indiana.edu  
 
 __Office hours__:  
-Me: TBA  
-Michael: TBA
+Me: Tuesday 1-2, Wednesday 2:30-3:30  
+Michael: Friday 10-11 (BH 643)
 
 __Course webpage__:    
-WWW: https://stats-432sp2018.github.com/  
+WWW: https://stats-432sp2018.github.io/  
 Github: https://github.com/stats-432sp2018  
 Slack: https://stats-432sp2018.slack.com/
 
