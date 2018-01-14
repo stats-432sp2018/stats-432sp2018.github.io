@@ -18,6 +18,20 @@ You will submit three written components and your group will deliver a 15 minute
 - Project checkpoint 3: due __Monday, April 30__
 - Project presentations: Tuesday/Thursday, April 24/26
 
+## Some sources for data
+
+* [Vox Media](https://www.vox.com) Github [Repo](https://github.com/voxmedia/data-projects)
+* [FiveThirtyEight](http://www.fivethirtyeight.com) Github [Repo](https://github.com/fivethirtyeight/data)
+* [NPR visualizations](http://blog.apps.npr.org) Github [Organization](https://github.com/nprapps)
+* Do you have a favorite blog/news site/data-driven website? They probably have a Github repo that is public. Try searching for it. (Those above are some of my favorites)
+* [Kaggle](https://www.kaggle.com/datasets)
+* Higgs Boson [Data](https://www.kaggle.com/c/higgs-boson/data) (from Kaggle, but worth it's own link)
+* [Zillow](https://www.zillow.com/research/data/)
+* [18 interesting places to find data](https://www.dataquest.io/blog/free-datasets-for-projects/)
+* [A list of 100+ datasets](http://rs.io/100-interesting-data-sets-for-statistics/)
+* Hockey data from [War on Ice](https://github.com/war-on-ice)
+
+
 ## Checkpoint 0
 
 Before the due date of checkpoint 1, you must let me know (via Slack) who is in your group. This way I can create a repo for you to collaborate and submit your work.
