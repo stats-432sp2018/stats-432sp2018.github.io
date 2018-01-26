@@ -24,7 +24,7 @@ jan-16 tue   coding and functions        (<a href=https://raw.githubusercontent.
 jan-18 thu                                                                                                                                                                HW 1 due             
 jan-23 tue   linear regression           (<a href=https://raw.githubusercontent.com/stats-432sp2018/lectures/master/lec04.pdf>pdf</a>)   AEPV 1 (ISL 3)                                        
 jan-25 thu                                                                                                                                                                PC 1                 
-jan-30 tue   regression issues part I                                                                                                    AEPV 2                                                
+jan-30 tue   regression issues part I    (<a href=https://raw.githubusercontent.com/stats-432sp2018/lectures/master/lec05.pdf>pdf</a>)   AEPV 2                                                
 feb-01 thu                                                                                                                                                                HW 2 due             
 feb-06 tue   model selection                                                                                                             AEPV 3 (ISL 5.1)                                      
 feb-08 thu                                                                                                                                                                                     
