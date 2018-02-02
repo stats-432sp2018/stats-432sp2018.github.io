@@ -23,11 +23,11 @@ cdat <- rawdat %>%
 ## Deal with linking notes when desired
 cdat$notes_name = paste0(cdat$notes,'.pdf')
 cdat$notes_name[cdat$notes_name=='.pdf'] = ' '
-cdat$full_path = paste0(lec.root, cdat$file_name)
+cdat$full_path = paste0(lec.root, cdat$notes_name)
 cdat$notes1 = rep('(pdf)',nrow(cdat))
 cdat$notes1 = str_replace(cdat$notes1, "(pdf)", '<a href="LINK">\\1</a>')
 exist_pdfs = list.files("../lectures/", 'pdf')
-link_them = cdat$link_it & (cdat$file_name %in% exist_pdfs)
+link_them = cdat$link_it & (cdat$notes_name %in% exist_pdfs)
 cdat$notes1[!link_them] = ' '
 cdat <- cdat %>% mutate(notes = str_replace(notes1, '\"LINK\"', full_path))
 rownames(cdat) <- NULL
@@ -43,6 +43,7 @@ rrlinks = c('https://github.com/stats-432sp2018/class-roster', rrlinks)
 allrrs[1:length(rrlinks)] = paste0('<a href=',
                                    rrlinks,'>',allrrs[1:length(rrlinks)],'</a>')
 cdat$rr[seq(2,2*nrrs,by=2)] = allrrs
+cdat$rr[!grepl('http',cdat$rr)] = ''
 ```
 
 
