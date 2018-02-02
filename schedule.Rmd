@@ -10,7 +10,7 @@ library(tidyr)
 
 lec.root = "https://raw.githubusercontent.com/stats-432sp2018/lectures/master/"
 
-rawdat <- read.csv(file.path("..","support", "schedule.csv"))
+rawdat <- read.csv("schedule.csv")
 cdat <- rawdat %>%
   mutate(ugly_date = ISOdate(2018, match(month, month.name), day),
          date = sprintf("%s-%02d %s",
@@ -20,8 +20,9 @@ cdat <- rawdat %>%
          action = action)
 
 
-cdat$file_name = paste0(cdat$notes,'.pdf')
-cdat$file_name[cdat$file_name=='.pdf'] = ' '
+## Deal with linking notes when desired
+cdat$notes_name = paste0(cdat$notes,'.pdf')
+cdat$notes_name[cdat$notes_name=='.pdf'] = ' '
 cdat$full_path = paste0(lec.root, cdat$file_name)
 cdat$notes1 = rep('(pdf)',nrow(cdat))
 cdat$notes1 = str_replace(cdat$notes1, "(pdf)", '<a href="LINK">\\1</a>')
@@ -30,6 +31,18 @@ link_them = cdat$link_it & (cdat$file_name %in% exist_pdfs)
 cdat$notes1[!link_them] = ' '
 cdat <- cdat %>% mutate(notes = str_replace(notes1, '\"LINK\"', full_path))
 rownames(cdat) <- NULL
+
+## Link all reading responses
+nrrs = 14
+exist_dirs = list.dirs("../", recursive = FALSE, full.names = FALSE)
+exist_rrs = exist_dirs[grepl('rr', exist_dirs)]
+rrlinks = paste0('https://github.com/stats-432sp2018/', exist_rrs)
+allrrs = paste0('rr',1:nrrs)
+cdat$rr = character(nrow(cdat))
+rrlinks = c('https://github.com/stats-432sp2018/class-roster', rrlinks)
+allrrs[1:length(rrlinks)] = paste0('<a href=',
+                                   rrlinks,'>',allrrs[1:length(rrlinks)],'</a>')
+cdat$rr[seq(2,2*nrrs,by=2)] = allrrs
 ```
 
 
@@ -45,5 +58,5 @@ PC = Project Checkpoint
 
 ```{r results = 'asis', echo = FALSE}
 options(knitr.kable.NA=' ')
-knitr::kable(cdat %>% select(date, topic, notes, reading, action))
+knitr::kable(cdat %>% select(date, topic, notes, reading, action, rr))
 ```
