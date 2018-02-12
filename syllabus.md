@@ -141,7 +141,7 @@ The entire class will give brief presentations during the last week of classes.
 #### Exams
 
 There will be two take home exams. Both will be completed entirely individually. 
-The midterm will be made available on __Friday, Febuary 16__ for submission by __Friday, February 23__.
+The midterm will be made available on __Wednesday, Febuary 21__ for submission by __Wednesday, February 28__.
 The second exam will be available __Friday, April 13__ for submission by __Friday, April 20__. In both cases, the exam file will be downloaded from your personal repo at 11:59pm on the due date. Late submissions will not be accepted.
 
 If either of these dates pose some type of problem, you must notify me no later than Friday, January 12. After this date, no alternatives will be considered without medical documentation.
