@@ -11,7 +11,7 @@ February,6,Tuesday,TRUE,lec06,model selection,AEPV 3 (ISL 5.1)
 February,8,Thursday,FALSE
 February,13,Tuesday,TRUE,lec07,smoothing,AEPV 4
 February,15,Thursday,FALSE,,,,
-February,20,Tuesday,FALSE,lec08,bootstrap and simulation,"AEPV 5,6 (not 6.4.2) (ISL 5.2)","HW 3 due, Exam 1 out"
+February,20,Tuesday,TRUE,lec08,bootstrap and simulation,"AEPV 5,6 (ISL 5.2)","HW 3 due, Exam 1 out"
 February,22,Thursday,FALSE,,,,
 February,27,Tuesday,FALSE,lec09,regression issues part II,AEPV 7,"Exam 1 due"
 March,1,Thursday,FALSE,
