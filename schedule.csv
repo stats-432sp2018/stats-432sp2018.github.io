@@ -21,11 +21,11 @@ March,20,Tuesday,TRUE,lec12,classification,"AEPV 11.1-11.3, ISL 4"
 March,22,Thursday,FALSE,
 March,27,Tuesday,TRUE,lec13,GLMs and GAMS,"AEPV 11.4-12"
 March,29,Thursday,FALSE,,,,HW 5 due
-April,3,Tuesday,FALSE,lec14,trees,AEPV 13 (ISL 8)
+April,3,Tuesday,FALSE,lec14,"KNN, LDA, and Logit",ISL 4
 April,5,Thursday,FALSE,
-April,10,Tuesday,FALSE,lec15,regularization,ISL 6
+April,10,Tuesday,FALSE,lec15,trees,AEPV 13 and ISL 8
 April,12,Thursday,FALSE,,,,"HW 6 due, Exam 2 out"
-April,17,Tuesday,FALSE,lec16,SVMs,ISL 9
+April,17,Tuesday,FALSE,lec16,regularization,ISL 6
 April,19,Thursday,FALSE,,,,Exam 2 due
 April,24,Tuesday,FALSE,,,,presentations
 April,26,Thursday,FALSE,,,,presentations
