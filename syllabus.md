@@ -104,7 +104,6 @@ If you send me email instead, I may ignore it.
 6 Homeworks (25 points each)  
 1 Course project (PC 1/PC 2/PC 3/Presentation 15/35/75/25)  
 2 Take-home exams (150 points each)  
-Participation (50 points)
 
 
 In all cases, a fixed number of points may be __earned__ for each
